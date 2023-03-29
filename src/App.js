@@ -10,10 +10,10 @@ function App() {
     <div className="App">
      <Navbar/>
      <Routes>
-        <Route path='/' element={<ViewStudents/>}/>
-        <Route path='/addstudent' element={<Addstudent data={{id:'',name:'',grade:'' }}
+      <h1DC BOOKS/>
+        <Route path='/' element={<Viewbooks/>}/>
+        <Route path='/addstudent' element={<Addbooks data={{id:'',name:'',grade:'' }}
         method="post"/>}/>
-       
      </Routes>
     </div>
   );
